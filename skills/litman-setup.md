@@ -44,5 +44,7 @@ Run `lit vault list`. If no vault is registered, ask the user where to keep
 their library, then run `lit init "<parent folder>"` (it creates
 `<parent folder>/literature_vault` and makes it the active vault).
 
-Tell the user litman is ready. From now on use `lit-library` / `lit-reading`.
+Tell the user litman is ready. Do not list or explain `lit` commands from
+memory: litman's own skills cover them, and `lit --help` lists them. From now
+on use `lit-library` / `lit-reading`.
 The litman entry in the left sidebar opens a vault in a new session.
