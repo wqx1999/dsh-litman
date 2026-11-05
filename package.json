@@ -1,6 +1,6 @@
 {
   "name": "dsh-litman",
-  "version": "0.1.0-preview.2",
+  "version": "0.1.0",
   "description": "litman for DeepSeek Harness. Open your litman libraries from the DeepSeek Harness sidebar, and let the agent install litman when it is missing.",
   "license": "MIT",
   "author": {

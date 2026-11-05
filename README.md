@@ -12,10 +12,11 @@ litman to DeepSeek Harness. Everything else is litman itself:
 In DeepSeek Harness, open **Plugins → Add plugin**, enter
 
 ```
-https://github.com/wqx1999/dsh-litman
+dsh-litman
 ```
 
-then **Install** and **Enable**. Requires DeepSeek Harness 0.2.
+then **Install** and **Enable**. Requires DeepSeek Harness 0.2. The GitHub
+address `https://github.com/wqx1999/dsh-litman` works too.
 
 You do not need litman installed first: the plugin can install it for you.
 

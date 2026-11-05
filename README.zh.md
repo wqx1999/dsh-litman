@@ -9,10 +9,10 @@
 在 DeepSeek Harness 里打开 **插件 → 添加插件**，填入
 
 ```
-https://github.com/wqx1999/dsh-litman
+dsh-litman
 ```
 
-点 **安装**，再点 **启用**。需要 DeepSeek Harness 0.2。
+点 **安装**，再点 **启用**。需要 DeepSeek Harness 0.2。也可以填 GitHub 地址 `https://github.com/wqx1999/dsh-litman`。
 
 不用先装 litman，插件可以帮你装。
 
