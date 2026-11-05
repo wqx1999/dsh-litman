@@ -1,0 +1,62 @@
+{
+  "name": "dsh-litman",
+  "version": "0.1.0-preview.2",
+  "description": "litman for DeepSeek Harness. Open your litman libraries from the DeepSeek Harness sidebar, and let the agent install litman when it is missing.",
+  "license": "MIT",
+  "author": {
+    "name": "Qingxin Wang",
+    "url": "https://litman.dev"
+  },
+  "homepage": "https://litman.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wqx1999/dsh-litman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wqx1999/litman/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "litman",
+    "literature",
+    "papers",
+    "reference-manager"
+  ],
+  "icon": "./icon.svg",
+  "type": "module",
+  "engines": {
+    "dsh": ">=0.2.1-0 <0.3.0"
+  },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "skills",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.zh.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-api-workspace-controller"
+      ],
+      "platform": "web"
+    }
+  }
+}

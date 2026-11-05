@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "litman",
+    "description": "在 DeepSeek Harness 侧栏打开 litman 文献库；没装 litman 时由 AI 帮你装。",
+    "detail": "README.zh.md"
+  }
+}

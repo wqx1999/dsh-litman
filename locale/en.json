@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "litman",
+    "description": "Open your litman libraries from the DeepSeek Harness sidebar, and let the agent install litman when it is missing."
+  }
+}

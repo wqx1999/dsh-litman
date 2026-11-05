@@ -1,0 +1,5 @@
+# dsh-litman bundle layer. `name` is the npm package name, resolved through the
+# profile's node_modules (not a relative path).
+- insert:
+    - id: dsh-litman
+      name: dsh-litman
